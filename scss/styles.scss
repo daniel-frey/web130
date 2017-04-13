@@ -1,0 +1,29 @@
+@import 'bourbon/bourbon';
+@import 'media';
+
+$pink: #FFCCCB;
+$tan: #FFD197;
+$brown: #7F3D17;
+$maroon: #7F1917;
+$blue: #CBFFFA;
+$teal: #21B6A8;
+
+/*.hello {
+    @include transform(rotate(-5deg));
+    background-color: $pink;
+    color: $maroon;
+    padding: 40px;
+    font-family: "Helvetica Neue", Sans-Serif;
+}*/
+
+article {
+    @include size(small){
+        @include columns(1);
+    }
+    @include size(medium){
+        @include columns(2);
+    }
+    @include size(large){
+        @include columns(3);
+    }
+}

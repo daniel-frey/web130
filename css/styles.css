@@ -1,0 +1,24 @@
+/*.hello {
+    @include transform(rotate(-5deg));
+    background-color: $pink;
+    color: $maroon;
+    padding: 40px;
+    font-family: "Helvetica Neue", Sans-Serif;
+}*/
+@media screen and (max-width: 39.9em) {
+  article {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1; } }
+@media screen and (min-width: 40em) and (max-width: 63.9em) {
+  article {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2; } }
+@media screen and (min-width: 64em) {
+  article {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3; } }
+
+/*# sourceMappingURL=styles.css.map */
